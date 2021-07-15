@@ -18,14 +18,16 @@
 }
 .content {
   display: flex;
-  align-items: flex-end;
-  background-color: green;
 }
 .sidebar {
   background-color: var(--color-grey-dark-1);
   flex: 0 0 18%; // we don't want to grow & shrink and always 18% of container
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .hotel-view {
-  background-color: rgb(29, 159, 177);
+  height: 80rem;
   flex: 1; // we want to grow as can be, and can be shrink
 }
