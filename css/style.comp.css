@@ -349,10 +349,6 @@ body {
 .gallery__photo {
   display: block;
   width: 100%;
-  transition: all 0.2s;
-}
-.gallery__photo:hover {
-  transform: scale(1.05) translateY(-10px);
 }
 
 .overview {
@@ -645,4 +641,4 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.comp.css.map */
